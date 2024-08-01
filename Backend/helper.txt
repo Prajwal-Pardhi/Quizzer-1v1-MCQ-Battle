@@ -1,0 +1,8 @@
+python manage.py startapp auth_app  -> create new app named auth_app
+
+python manage.py makemigrations auth_app
+python manage.py makemigrations
+python manage.py migrate
+
+
+Start the development server:  python manage.py runserver  
